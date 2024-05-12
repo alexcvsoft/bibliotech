@@ -31,4 +31,12 @@ class Documento extends Model
     {
         return $this->belongsTo(TipoDocumento::class);
     }
+
+    // Definir la relación con las palabras clave
+    public function palabrasClave()
+    {
+        return $this->belongsToMany(PalabraClave::class, 'palabras_clave_documentos', 'documento_id', 'palabra_clave_id');
+    }
+
+    
 }
