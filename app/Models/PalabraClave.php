@@ -9,9 +9,11 @@ class PalabraClave extends Model
 {
     use HasFactory;
 
+    protected $table = 'palabras_clave';
+
     protected $fillable = ['palabra'];
 
-    // DEfinir la relacion con los documentos
+    // Definir la relacion con los documentos
     public function documentos()
     {
         return $this->belongsToMany(Documento::class, 'palabras_clave_documentos', 'palabra_clave_id', 'documento_id');

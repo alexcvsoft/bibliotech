@@ -23,8 +23,8 @@ return new class extends Migration
             $table->string('portada_documento')->nullable(); // Referencia al archivo de imagen de portada del doc
 
             // Foreign key constraints
-            $table->foreign('autor_id')->references('id')->on('autors')->onDelete('cascade');
-            $table->foreign('tipo_documento_id')->references('id')->on('tipo_documentos')->onDelete('cascade');
+            $table->foreign('autor_id')->references('id')->on('autores')->onDelete('cascade');
+            $table->foreign('tipo_documento_id')->references('id')->on('tipos_documento')->onDelete('cascade');
             $table->timestamps();
         });
     }

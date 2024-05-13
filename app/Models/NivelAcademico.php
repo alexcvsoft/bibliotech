@@ -9,5 +9,7 @@ class NivelAcademico extends Model
 {
     use HasFactory;
 
+    protected $table = 'niveles_academicos';
+
     protected $fillable = ['descripcion'];
 }

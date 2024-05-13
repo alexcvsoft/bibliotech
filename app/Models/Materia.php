@@ -9,5 +9,7 @@ class Materia extends Model
 {
     use HasFactory;
 
+    protected $table = 'materias';
+
     protected $fillable = ['descripcion'];
 }

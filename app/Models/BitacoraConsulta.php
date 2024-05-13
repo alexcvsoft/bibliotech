@@ -9,6 +9,8 @@ class BitacoraConsulta extends Model
 {
     use HasFactory;
 
+    protected $table = 'bitacora_consultas';
+
     protected $fillable = ['documento_id', 'usuario_id'];
 
     // Define relaciones

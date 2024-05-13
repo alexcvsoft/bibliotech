@@ -9,6 +9,8 @@ class Investigador extends User
 {
     use HasFactory;
 
+    protected $table = 'investigadores';
+
     protected $fillable = ['usuario_id', 
                             'procedencia'];
 

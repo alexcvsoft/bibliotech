@@ -9,6 +9,8 @@ class Documento extends Model
 {
     use HasFactory;
 
+    protected $table = 'documentos';
+
     protected $fillable = [
         'autor_id',
         'titulo',

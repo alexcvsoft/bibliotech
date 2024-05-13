@@ -9,6 +9,8 @@ class Docente extends User
 {
     use HasFactory;
 
+    protected $table = 'docentes';
+
     protected $fillable = ['usuario_id', 
                             'materia_impartida_id'];
     
