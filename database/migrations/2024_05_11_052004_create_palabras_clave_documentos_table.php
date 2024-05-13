@@ -16,12 +16,12 @@ return new class extends Migration
             $table->unsignedBigInteger('palabra_clave_id');
             $table->timestamps();
 
-            // Definir llave primaria compuesta
-            $table->primary(['documento_id','palabra_clave_id']);
-
             // Definir llaves foráneas
             $table->foreign('documento_id')->references('id')->on('documentos')->onDelete('cascade');
             $table->foreign('palabra_clave_id')->references('id')->on('palabras_clave')->onDelete('cascade');
+            
+            // Definir llave primaria compuesta
+            $table->primary(['documento_id','palabra_clave_id']);
         });
     }
 

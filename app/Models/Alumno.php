@@ -9,7 +9,9 @@ class Alumno extends User
 {
     use HasFactory;
 
-    protected $fillable = ['semestre', 'nivel_academico_id'];
+    protected $fillable = ['usuario_id',
+                            'semestre', 
+                            'nivel_academico_id'];
 
     /**
      * Obtener el Usuario asociado con el Alumno.
