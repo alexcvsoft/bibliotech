@@ -12,6 +12,7 @@ class Alumno extends User
     protected $table = 'alumnos';
 
     protected $fillable = ['usuario_id',
+                            'matricula',
                             'semestre', 
                             'nivel_academico_id'];
 

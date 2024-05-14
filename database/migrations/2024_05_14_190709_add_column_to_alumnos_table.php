@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('users', function (Blueprint $table) {
-            //Añadir campo para rol the usuario
-            $table->integer('rol_usuario');
+        Schema::table('alumnos', function (Blueprint $table) {
+            // Añadir columna de matrícula
+            $table->integer('matricula')->unique();
         });
     }
 
@@ -22,9 +22,9 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('users', function (Blueprint $table) {
-            // Eliminar la columna rol_usuario
-            $table->dropColumn('rol_usuario');
+        Schema::table('alumnos', function (Blueprint $table) {
+            // Eliminar columna de matrícula
+            $table->dropColumn('matricula');
         });
     }
 };

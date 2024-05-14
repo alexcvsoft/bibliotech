@@ -12,7 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            // Añadir nuevos campos
+            $table->string('apellido_paterno');
+            $table->string('apellido_materno');
         });
     }
 
@@ -22,9 +24,9 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            // Añadir nuevos campos
-            $table->string('apellido_paterno');
-            $table->string('apellido_materno');
+            // Eliminar los nuevos campos
+            $table->dropColumn('apellido_paterno');
+            $table->dropColumn('apellido_materno');
         });
     }
 };
