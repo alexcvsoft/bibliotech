@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             // Añadir nuevos campos
             $table->string('apellido_paterno');
-            $table->string('apellido_materno');
+            $table->string('apellido_materno')->nullable();
         });
     }
 
