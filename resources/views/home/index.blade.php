@@ -82,10 +82,10 @@
       </defs>
     </svg>
 
-    <div class="preloader-wrapper">
+    <!-- <div class="preloader-wrapper">
       <div class="preloader">
       </div>
-    </div>
+    </div> -->
 
     <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
       <div class="offcanvas-header mt-3">
@@ -168,7 +168,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 pe-5 mt-5 mt-md-0">
-            <h2 class="display-1 text-uppercase">Master Your Skills Online</h2>
+            <h2 class="display-1">Sistema de Bibliotecas UAZ "Francisco García Salinas"</h2>
             <p class="fs-4 my-4 pb-2">Online Courses Taught by Industry Titans!</p>
             <div>
               <form id="form" class="d-flex align-items-center position-relative ">
