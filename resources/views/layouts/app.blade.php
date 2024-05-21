@@ -281,19 +281,13 @@
                 <h5 class=" fw-bold mb-4">Sobre</h5>
                 <ul class="menu-list list-unstyled">
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">Incio</a>
                   </li>
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">About us</a>
+                    <a href="#" class="footer-link">Sobre UADGP</a>
                   </li>
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Courses</a>
-                  </li>
-                  <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Blogs</a>
-                  </li>
-                  <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Contact</a>
+                    <a href="#" class="footer-link">Soporte</a>
                   </li>
                 </ul>
               </div>
@@ -303,16 +297,7 @@
                 <h5 class=" fw-bold mb-4">Dirección y Teléfono</h5>
                 <ul class="menu-list list-unstyled">
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">How It Works</a>
-                  </li>
-                  <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Pricing</a>
-                  </li>
-                  <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Promotion</a>
-                  </li>
-                  <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Affilation</a>
+                    <p>Av. Zacatecas #30, esquina Av. Hidalgo, Tacoaleche, Guadalupe, Zac.</p>
                   </li>
                 </ul>
               </div>
@@ -322,13 +307,16 @@
                 <h5 class=" fw-bold mb-4">Contáctanos</h5>
                 <ul class="menu-list list-unstyled">
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">contact@yourcompany</a>
+                    <p>uadgp@uaz.edu.mx</p>
                   </li>
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">+110 4587 2445</a>
+                    <p>Teléfono de oficina: 
+                        <br>
+                        (492) 7–68–24–32
+                    </p>
                   </li>
                   <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">New York, USA</a>
+                    <p>Zacatecas, Zac, México.</p>
                   </li>
                 </ul>
               </div>
