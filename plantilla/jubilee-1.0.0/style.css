@@ -105,9 +105,9 @@ CSS STRUCTURE:
 
 /* Theme Colors */
 :root {
-  --primary-color: #4CC082;
+  --primary-color: #a1901f;
   --light-primary-color: #E2F3F0;
-  --secondary-color: #EC6C5A;
+  --secondary-color: #0008f7;
   --light-secondary-color: #FFE9E5;
   --tertiary-color: #FFEED3;
   --dark-color: #31333A;
@@ -140,13 +140,13 @@ body {
   --bs-body-line-height: 1.3rem;
   --bs-body-color: var(--dark-color);
 
-  --bs-primary: #4CC082;
+  --bs-primary: #a1901f;
   --bs-primary-rgb: 76, 192, 130;
   --bs-primary-bg-subtle: #E2F3F0;
 
   --bs-border-color: #F7F7F7;
 
-  --bs-secondary: #EC6C5A;
+  --bs-secondary: #0008f7;
   --bs-secondary-rgb: 236, 108, 90;
   --bs-secondary-bg-subtle: #FFE9E5;
 
@@ -678,12 +678,12 @@ faqs page style start
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url('https://api.iconify.design/eva/arrow-down-fill.svg?color=%234cc082');
+  background-image: url('https://api.iconify.design/eva/arrow-down-fill.svg?color=%23a1901f');
 
 }
 
 .accordion-button::after {
-  background-image: url('https://api.iconify.design/eva/arrow-down-fill.svg?color=%234cc082');
+  background-image: url('https://api.iconify.design/eva/arrow-down-fill.svg?color=%23a1901f');
 }
 
 .accordion-button:focus {

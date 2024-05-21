@@ -42,7 +42,7 @@
             <div class="container-fluid">
                 <div class="main-logo d-lg-none">
                 <a href="{{ route('home') }}">
-                    <img src="{{ asset('plantilla/images/logo.png') }}" alt="logo" class="img-fluid">
+                    <img src="{{ asset('img/logo2.svg') }}" alt="logo" class="img-fluid">
                 </a>
                 </div>
 
@@ -60,20 +60,22 @@
                 <div class="offcanvas-body justify-content-between">
                     <div class="main-logo">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('plantilla/images/logo.png') }}" alt="logo" class="img-fluid">
+                        <img src="{{ asset('img/logo2.svg') }}" alt="logo" class="img-fluid">
                     </a>
                     </div>
 
                     <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
                     <li class="nav-item">
-                        <a href="{{ route('home') }}" class="nav-link mx-2 active">Home</a>
+                        <a href="{{ route('home') }}" class="nav-link mx-2 active">Inicio</a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="pages"
-                        data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                        <ul class="dropdown-menu" aria-labelledby="pages">
-                        <li><a href="about.html" class="dropdown-item">About Us<span
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 align-items-center" role="button" id="pages"
+                        aria-expanded="false">Catálogo</a>
+                        {{-- <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="pages"
+                        data-bs-toggle="dropdown" aria-expanded="false">Autores</a> --}}
+                        {{-- <ul class="dropdown-menu" aria-labelledby="pages">
+                        <li><a href="about.html" class="dropdown-item">Categorías<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
                         <li><a href="instructors.html" class="dropdown-item">Instructors<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
@@ -97,59 +99,37 @@
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
                         <li><a href="styles.html" class="dropdown-item">Styles<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="courses"
-                        data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
-                        <ul class="dropdown-menu" aria-labelledby="courses">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 align-items-center" role="button" id="courses"
+                        aria-expanded="false">Autores</a>
+                        {{-- <ul class="dropdown-menu" aria-labelledby="courses">
                         <li><a href="courses.html" class="dropdown-item">Course<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
                         <li><a href="courses-details.html" class="dropdown-item">Courses Detail<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="events"
-                        data-bs-toggle="dropdown" aria-expanded="false">events</a>
-                        <ul class="dropdown-menu" aria-labelledby="courses">
+                    <li class="nav-item ">
+                        <a class="nav-link mx-2 align-items-center" role="button" id="events"
+                        aria-expanded="false">Colecciones</a>
+                        {{-- <ul class="dropdown-menu" aria-labelledby="courses">
                         <li><a href="event.html" class="dropdown-item">event<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
                         <li><a href="event-details.html" class="dropdown-item">event details<span
                                 class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="blog"
-                        data-bs-toggle="dropdown" aria-expanded="false">blog</a>
-                        <ul class="dropdown-menu" aria-labelledby="blog">
-                        <li><a href="blog.html" class="dropdown-item">blog<span
-                                class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        <li><a href="single-post.html" class="dropdown-item">single post<span
-                                class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="shop"
-                        data-bs-toggle="dropdown" aria-expanded="false">shop</a>
-                        <ul class="dropdown-menu" aria-labelledby="shop">
-                        <li><a href="shop.html" class="dropdown-item">Shop<span
-                                class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        <li><a href="single-product.html" class="dropdown-item">Single Product<span
-                                class="badge bg-secondary text-white ms-2">PRO</span></a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
+                   {{--  <li class="nav-item">
                         <a href="contact.html" class="nav-link mx-2">contact</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
-                        <a href="https://templatesjungle.gumroad.com/l/jubilee-free-bootstrap-5-html-website-template-for-online-course"
-                        class="nav-link mx-2 text-decoration-underline" target="_blank">GET PRO</a>
+                        <a href="#"
+                        class="nav-link mx-2 text-decoration-underline" target="_blank">Iniciar Sesión</a>
                     </li>
                     </ul>
 
@@ -246,4 +226,141 @@
     </body>
 
     @yield('content')
+
+    <footer id="footer">
+        <div class="container padding-medium ">
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 my-3">
+              <div class="footer-menu">
+                <a href="{{ route('home') }}">
+                  <img src="{{ asset('img/logo2.svg') }}" alt="logo" class="img-fluid">
+                </a>
+                <div class="social-links mt-4">
+                  <ul class="d-flex list-unstyled ">
+                    <li class="me-4">
+                      <a href="#">
+                        <svg class="social-icon" width="30" height="30" aria-hidden="true">
+                          <use xlink:href="#facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="me-4">
+                      <a href="#">
+                        <svg class="social-icon" width="30" height="30" aria-hidden="true">
+                          <use xlink:href="#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="me-4">
+                      <a href="#">
+                        <svg class="social-icon" width="30" height="30" aria-hidden="true">
+                          <use xlink:href="#instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="me-4">
+                      <a href="#">
+                        <svg class="social-icon" width="30" height="30" aria-hidden="true">
+                          <use xlink:href="#linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="me-4">
+                      <a href="#">
+                        <svg class="social-icon" width="30" height="30" aria-hidden="true">
+                          <use xlink:href="#youtube"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 my-3">
+              <div class="footer-menu">
+                <h5 class=" fw-bold mb-4">Sobre</h5>
+                <ul class="menu-list list-unstyled">
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Home</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">About us</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Courses</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Blogs</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 my-3">
+              <div class="footer-menu">
+                <h5 class=" fw-bold mb-4">Dirección y Teléfono</h5>
+                <ul class="menu-list list-unstyled">
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">How It Works</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Pricing</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Promotion</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">Affilation</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 my-3">
+              <div class="footer-menu">
+                <h5 class=" fw-bold mb-4">Contáctanos</h5>
+                <ul class="menu-list list-unstyled">
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">contact@yourcompany</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">+110 4587 2445</a>
+                  </li>
+                  <li class="menu-item mb-2">
+                    <a href="#" class="footer-link">New York, USA</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <div id="footer-bottom">
+        <hr class="text-black-50">
+        <div class="container">
+          <div class="row py-3">
+            <div class="col-md-6 copyright">
+              <p>© 2024 TemplatesJungle. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p>Free HTML Template by: <a href="https://templatesjungle.com/" target="_blank" class="fw-bold">
+                  TemplatesJungle</a> Distributed by: <a href="https://themewagon.com" target="_blank" class="fw-bold">
+                    ThemeWagon
+                  </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <script src="js/jquery-1.11.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>-->
+
+
 </html>
