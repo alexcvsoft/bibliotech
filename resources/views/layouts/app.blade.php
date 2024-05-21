@@ -330,13 +330,13 @@
         <div class="container">
           <div class="row py-3">
             <div class="col-md-6 copyright">
-              <p>© 2024 TemplatesJungle. All rights reserved.</p>
+              <p>© 2024 Todos los derechos reservados.</p>
             </div>
             <div class="col-md-6 text-md-end">
-              <p>Free HTML Template by: <a href="https://templatesjungle.com/" target="_blank" class="fw-bold">
+              <!-- <p>Free HTML Template by: <a href="https://templatesjungle.com/" target="_blank" class="fw-bold">
                   TemplatesJungle</a> Distributed by: <a href="https://themewagon.com" target="_blank" class="fw-bold">
                     ThemeWagon
-                  </a></p>
+                  </a></p> -->
             </div>
           </div>
         </div>
