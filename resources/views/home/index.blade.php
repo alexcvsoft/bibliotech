@@ -390,8 +390,8 @@
     <section id="courses" class="padding-medium">
       <div class="container">
         <div class="text-center mb-5">
-          <p class="text-secondary">Some of our most popular online courses</p>
-          <h2 class="display-6 fw-semibold">Explore Inspiring Online Courses</h2>
+          <p class="text-secondary">Algo de lo mas popular</p>
+          <h2 class="display-6 fw-semibold">Explora nuestro catalogo </h2>
         </div>
 
         <div class="row">
@@ -405,7 +405,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -415,7 +415,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">Mastering the Art of Digital Communication</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 1</h5>
                 </a>
 
                 <div class="card-text">
@@ -441,7 +441,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -451,7 +451,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">Web Wizardry 101: Mastering the Internet</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 2</h5>
                 </a>
 
                 <div class="card-text">
@@ -477,7 +477,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -487,7 +487,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">E-Learning Essentials: A Comprehensive Guide</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 3</h5>
                 </a>
 
                 <div class="card-text">
@@ -513,7 +513,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -523,7 +523,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">CyberClass 101: A Guide to Online Education</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 5</h5>
                 </a>
 
                 <div class="card-text">
@@ -549,7 +549,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -559,7 +559,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">Mastering the Art of Digital Communication</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 6</h5>
                 </a>
 
                 <div class="card-text">
@@ -585,7 +585,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -595,7 +595,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">Web Wizardry 101: Mastering the Internet</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 7</h5>
                 </a>
 
                 <div class="card-text">
@@ -621,7 +621,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -631,7 +631,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">E-Learning Essentials: A Comprehensive Guide</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 8</h5>
                 </a>
 
                 <div class="card-text">
@@ -657,7 +657,7 @@
               <div class="card-body p-0">
 
                 <div class="d-flex justify-content-between my-3">
-                  <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">NUEVAS ADQUISIONES</p>
                   <div class="d-flex align-items-center">
                     <svg width="20" height="20">
                       <use xlink:href="#clock" class="text-black-50"></use>
@@ -667,7 +667,7 @@
                 </div>
 
                 <a href="courses-details.html">
-                  <h5 class="course-title py-2 m-0">CyberClass 101: A Guide to Online Education</h5>
+                  <h5 class="course-title py-2 m-0">LIBRO 10</h5>
                 </a>
 
                 <div class="card-text">
@@ -687,7 +687,7 @@
         </div>
 
         <div class="text-center mt-4">
-          <a href="courses.html" class="btn btn-primary px-5 py-3">View all courses</a>
+          <a href="courses.html" class="btn btn-primary px-5 py-3">Todas las categorias</a>
         </div>
 
       </div>
@@ -696,8 +696,8 @@
     <section id="testimonial" class="padding-medium bg-primary-subtle">
       <div class="container">
         <div class="text-center mb-4">
-          <p class="text-secondary ">What our students say about us</p>
-          <h2 class="display-6 fw-semibold">Reviews</h2>
+          <p class="text-secondary ">Lo que los estudiantes dicen acerca</p>
+          <h2 class="display-6 fw-semibold">Reseñas</h2>
         </div>
         <div class="row">
           <div class="offset-md-1 col-md-10">
@@ -801,8 +801,8 @@
     <section id="teacher" class="padding-medium">
       <div class="container">
         <div class="text-center mb-5">
-          <p class="text-secondary">Meet our popular teachers</p>
-          <h2 class="display-6 fw-semibold">Our Teachers</h2>
+          <p class="text-secondary">Conoce autores populares</p>
+          <h2 class="display-6 fw-semibold">Nuestros autores</h2>
         </div>
 
         <div class="row">
