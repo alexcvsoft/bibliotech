@@ -189,8 +189,9 @@
         <div class="row">
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="img-fluid rounded-3" alt="image">
+              <div class="imagen_portada zoom-effect rounded-3">
+                <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="imagen_portada" alt="image">
+                <!-- <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="img-fluid rounded-3" alt="image"> -->
                 
                 <ul class="social-links list-unstyled position-absolute">
                   <li>
@@ -225,8 +226,8 @@
               </div>
               <div class="card-body p-0">
                 <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Anila Lee</p>
-                  <p class="text-secondary m-0">Art Director</p>
+                  <p class="fw-bold m-0">¿Adicciones... sin drogas? Las nuevas adicciones</p>
+                  <p class="text-secondary m-0">Enrique Echeburúa</p>
                 </div>
               </div>
             </div>
@@ -234,7 +235,8 @@
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
               <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid rounded-3" alt="image">
+                <!-- <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid rounded-3" alt="image"> -->
+                <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid imagen_portada" alt="image">
                 <ul class="social-links list-unstyled position-absolute">
                   <li>
                     <a href="#">
@@ -268,8 +270,8 @@
               </div>
               <div class="card-body p-0">
                 <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Bruce Smith</p>
-                  <p class="text-secondary m-0">Marketing Expert</p>
+                  <p class="fw-bold m-0">CANNABIS Y SALUD del mito a la evidencia</p>
+                  <p class="text-secondary m-0">Mario Souza y Machorro</p>
                 </div>
               </div>
             </div>
@@ -312,8 +314,8 @@
               <div class="card-body p-0">
 
                 <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Jack Nicholson</p>
-                  <p class="text-secondary m-0">SEO Expert</p>
+                  <p class="fw-bold m-0">Cerebro y adicción Neurobiología del refuerzo</p>
+                  <p class="text-secondary m-0">Diego Redolar Ripoll</p>
                 </div>
               </div>
             </div>
@@ -356,8 +358,8 @@
               <div class="card-body p-0">
 
                 <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Calvin Ian</p>
-                  <p class="text-secondary m-0">Sales Director</p>
+                  <p class="fw-bold m-0">GUÍA METODOLÓGICA ELABORACIÓN Y ACTUALIZACIÓN DE PROGRAMAS MUNICIPALES DE DESARROLLO URBANO</p>
+                  <p class="text-secondary m-0">Alejandro Marambio Castillo</p>
                 </div>
               </div>
             </div>
@@ -400,8 +402,8 @@
               <div class="card-body p-0">
 
                 <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Milye Sam</p>
-                  <p class="text-secondary m-0">Marketing Expert</p>
+                  <p class="fw-bold m-0">Guía práctica de contabilidad para PYMES</p>
+                  <p class="text-secondary m-0">Fernando Sánchez</p>
                 </div>
               </div>
             </div>

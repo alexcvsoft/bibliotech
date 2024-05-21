@@ -61,6 +61,13 @@
         color: black; /* Color específico para el h2 */
     }
     
+    .imagen_portada {
+        max-width: 415px;
+        max-height: 588px;
+        width: auto;
+        height: auto;
+    }
+    
     
     
     
