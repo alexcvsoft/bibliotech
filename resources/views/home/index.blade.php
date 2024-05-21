@@ -168,7 +168,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 pe-5 mt-5 mt-md-0">
-            <h2 class="display-1">Sistema de Bibliotecas UAZ "Francisco García Salinas"</h2>
+            <h2 class="display-1">Sistema de Bibliotecass</h2>
             <p class="fs-4 my-4 pb-2">Online Courses Taught by Industry Titans!</p>
             <div>
               <form id="form" class="d-flex align-items-center position-relative ">
@@ -234,7 +234,7 @@
       </div>
     </section>
 
-    <section id="about" class="padding-medium mt-xl-5">
+    <!-- <section id="about" class="padding-medium mt-xl-5">
       <div class="container">
         <div class="row align-items-center mt-xl-5">
           <div class="offset-md-1 col-md-5">
@@ -273,7 +273,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="category">
       <div class="container ">
