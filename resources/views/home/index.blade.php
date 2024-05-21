@@ -163,32 +163,21 @@
     </section>
 
     
-
-    <section id="hero" style="background-image:url(images/billboard-bg.png); background-repeat: no-repeat; ">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 pe-5 mt-5 mt-md-0">
-            <h2 class="display-1">Sistema de Bibliotecas UAZ "Francisco García Salinas"</h2>
-            <p class="fs-4 my-4 pb-2">Online Courses Taught by Industry Titans!</p>
-            <div>
-              <form id="form" class="d-flex align-items-center position-relative ">
+    <!-- SECCION DE BARRA DE BUSQUEDA -->
+  <section id="barra-busqueda">
+    <div class="col-md-6 pe-5 mt-5 mt-md-0">
+        <div>
+           <form id="form" class="d-flex align-items-center position-relative ">
                 <input type="text" name="email" placeholder="what are you trying to learn?"
                   class="form-control bg-white border-0 rounded-4 shadow-none px-4 py-3 w-100">
                 <button class="btn btn-primary rounded-4 px-3 py-2 position-absolute align-items-center m-1 end-0"><svg
                     xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
                     <use href="#search" />
                   </svg></button>
-              </form>
-
-            </div>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="{{ asset('plantilla/images/billboard-img.jpg') }}" alt="img" class="img-fluid">
-            
-          </div>
+           </form>
         </div>
       </div>
-    </section>
+  </section>
 
     <section id="features">
       <div class="feature-box container">
@@ -234,7 +223,7 @@
       </div>
     </section>
 
-    <section id="about" class="padding-medium mt-xl-5">
+    <!-- <section id="about" class="padding-medium mt-xl-5">
       <div class="container">
         <div class="row align-items-center mt-xl-5">
           <div class="offset-md-1 col-md-5">
@@ -273,7 +262,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="category">
       <div class="container ">

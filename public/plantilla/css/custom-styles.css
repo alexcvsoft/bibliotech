@@ -1,0 +1,10 @@
+#barra-busqueda {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Ajusta según la altura del contenedor padre */
+        font-size: 2em; /* Ajusta el tamaño del texto según sea necesario */
+        text-align: center; /* Centra el texto dentro del div */
+}
