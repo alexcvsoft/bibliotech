@@ -154,116 +154,264 @@
       </div>
     </div>
 
-    <section id="top-nav" class="bg-secondary">
+    <section id="top-nav">
       <div class="text-center px-md-3 py-md-2">
-       {{--  <p class="text-white py-1 m-0">Get your first course at 50% Discount. Offer lasts for the first 50 students only.
-          <span><a href="account.html" class="text-white text-decoration-underline">Register now</a></span>
-        </p> --}}
       </div>
     </section>
 
     
-    <!-- SECCION DE BARRA DE BUSQUEDA -->
-  <section id="barra-busqueda">
-    <div class="col-md-6 pe-5 mt-5 mt-md-0">
-        <div>
-           <form id="form" class="d-flex align-items-center position-relative ">
-                <input type="text" name="email" placeholder="what are you trying to learn?"
-                  class="form-control bg-white border-0 rounded-4 shadow-none px-4 py-3 w-100">
-                <button class="btn btn-primary rounded-4 px-3 py-2 position-absolute align-items-center m-1 end-0"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                    <use href="#search" />
-                  </svg></button>
-           </form>
+    <!-- SECCIÓN DE BARRA DE BÚSQUEDA -->
+    <section id="barra-busqueda">
+        <div class="col-md-6 pe-5 mt-5 mt-md-0">
+            <div>
+              <form id="form" class="d-flex align-items-center position-relative">
+                    <input type="text" name="email" placeholder="¿Qué te gustaría leer hoy?"
+                      class="form-control search-input">
+                    <button class="btn btn-primary search-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M10 2a8 8 0 015.29 13.29l5.38 5.38-1.42 1.42-5.38-5.38A8 8 0 1110 2zm0 2a6 6 0 100 12 6 6 0 000-12z"/>
+                      </svg>
+                    </button>
+              </form>
+            </div>
         </div>
-      </div>
-  </section>
-
-    <section id="features">
-      <div class="feature-box container">
-        <div class="row ">
-          <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
-            <div class="feature-item py-5  rounded-4">
-              <div class="feature-detail text-center">
-                <h2 class="feature-title">100+</h2>
-                <h6 class="feature-info text-uppercase">instructors</h6>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
-            <div class="feature-item py-5  rounded-4">
-              <div class="feature-detail text-center">
-                <h2 class="feature-title">500+</h2>
-                <h6 class="feature-info text-uppercase">courses</h6>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
-            <div class="feature-item py-5  rounded-4">
-              <div class="feature-detail text-center">
-                <h2 class="feature-title">free</h2>
-                <h6 class="feature-info text-uppercase">certifications</h6>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
-            <div class="feature-item py-5  rounded-4">
-              <div class="feature-detail text-center">
-                <h2 class="feature-title">2,000+</h2>
-                <h6 class="feature-info text-uppercase">happy members</h6>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </section>
 
-    <!-- <section id="about" class="padding-medium mt-xl-5">
+ 
+  <!-- SECCION LIBROS -->
+    <section id="teacher" class="padding-medium">
       <div class="container">
-        <div class="row align-items-center mt-xl-5">
-          <div class="offset-md-1 col-md-5">
-            <img src="{{ asset('plantilla/images/about-img.jpg') }}" alt="img" class="img-fluid rounded-circle">
-            
+        <div class="text-center mb-5">
+          <p class="texto-secundario">Conoce libros populares</p>
+          <h2 class="display-6 fw-semibold">Nuevas Adquisiciones</h2>
+        </div>
+
+        <div class="row">
+          <div class="col mb-5">
+            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+              <div class="image-holder zoom-effect rounded-3">
+                <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="img-fluid rounded-3" alt="image">
+                
+                <ul class="social-links list-unstyled position-absolute">
+                  <li>
+                    <a href="#">
+                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#facebook" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#twitter" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#instagram" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#linkedin" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body p-0">
+                <div class="text-center mt-3">
+                  <p class="fw-bold m-0">Anila Lee</p>
+                  <p class="text-secondary m-0">Art Director</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-5 mt-5 mt-md-0">
-            <div class="mb-3">
-              <p class="text-secondary ">Learn more about us</p>
-              <h2 class="display-6 fw-semibold">About Us</h2>
+          <div class="col mb-5">
+            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+              <div class="image-holder zoom-effect rounded-3">
+                <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid rounded-3" alt="image">
+                <ul class="social-links list-unstyled position-absolute">
+                  <li>
+                    <a href="#">
+                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#facebook" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#twitter" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#instagram" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#linkedin" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body p-0">
+                <div class="text-center mt-3">
+                  <p class="fw-bold m-0">Bruce Smith</p>
+                  <p class="text-secondary m-0">Marketing Expert</p>
+                </div>
+              </div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae nam commodi dolore vitae?
-              Numquam minima cum asperiores deleniti possimus provident, officia itaque esse eius, delectus incidunt
-              laudantium adipisci laboriosam!</p>
-            <div class="d-flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                <use href="#tick-circle" class="text-secondary" />
-              </svg>
-              <p class="ps-4">Engage with a worldwide community of inquisitive and imaginative individuals.</p>
-            </div>
-            <div class="d-flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                <use href="#tick-circle" class="text-secondary" />
-              </svg>
-              <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
-            </div>
-            <div class="d-flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                <use href="#tick-circle" class="text-secondary" />
-              </svg>
-              <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
-            </div>
-            <a href="about.html" class="btn btn-primary px-5 py-3 mt-4">Learn more</a>
+          </div>
+          <div class="col mb-5">
+            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+              <div class="image-holder zoom-effect rounded-3">
+                <img src="{{ asset('img/portadas/Cerebro_y_adiccion_DRR.png') }}" class="img-fluid rounded-3" alt="image">
+                <ul class="social-links list-unstyled position-absolute">
+                  <li>
+                    <a href="#">
+                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#facebook" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#twitter" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#instagram" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#linkedin" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body p-0">
 
+                <div class="text-center mt-3">
+                  <p class="fw-bold m-0">Jack Nicholson</p>
+                  <p class="text-secondary m-0">SEO Expert</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+              <div class="image-holder zoom-effect rounded-3">
+                <img src="{{ asset('img/portadas/Guía_metodológica.png') }}" class="img-fluid rounded-3" alt="image">
+                <ul class="social-links list-unstyled position-absolute">
+                  <li>
+                    <a href="#">
+                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#facebook" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#twitter" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#instagram" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#linkedin" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body p-0">
 
+                <div class="text-center mt-3">
+                  <p class="fw-bold m-0">Calvin Ian</p>
+                  <p class="text-secondary m-0">Sales Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+              <div class="image-holder zoom-effect rounded-3">
+                <img src="{{ asset('img/portadas/Guía_práctica_de_contabilidad_para_PYMES_FSMGC.png') }}" class="img-fluid rounded-3" alt="image">
+                <ul class="social-links list-unstyled position-absolute">
+                  <li>
+                    <a href="#">
+                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#facebook" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#twitter" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#instagram" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                        <use xlink:href="#linkedin" class="text-white"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body p-0">
+
+                <div class="text-center mt-3">
+                  <p class="fw-bold m-0">Milye Sam</p>
+                  <p class="text-secondary m-0">Marketing Expert</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section> -->
+    </section>
 
+    <!-- FIN DE SECCION LIBROS -->
+
+    <!-- SECCION CATEGORIAS -->
     <section id="category">
       <div class="container ">
         <div class="d-md-flex justify-content-between align-items-center">
@@ -386,8 +534,10 @@
         </div>
       </div>
     </section>
+    <!-- FIN DE SECCION CATEGORIAS -->
 
-    <section id="courses" class="padding-medium">
+    <!-- SECCION CURSOS -->
+<section id="courses" class="padding-medium">
       <div class="container">
         <div class="text-center mb-5">
           <p class="text-secondary">Algo de lo mas popular</p>
@@ -689,11 +839,12 @@
         <div class="text-center mt-4">
           <a href="courses.html" class="btn btn-primary px-5 py-3">Todas las categorias</a>
         </div>
-
       </div>
     </section>
+    <!-- FIN DE SECCION CURSOS -->
 
-    <section id="testimonial" class="padding-medium bg-primary-subtle">
+         <!-- SECCION RESEÑAS -->
+         <section id="testimonial" class="padding-medium bg-primary-subtle">
       <div class="container">
         <div class="text-center mb-4">
           <p class="text-secondary ">Lo que los estudiantes dicen acerca</p>
@@ -794,239 +945,8 @@
           </div>
         </div>
       </div>
-
-
     </section>
-
-    <section id="teacher" class="padding-medium">
-      <div class="container">
-        <div class="text-center mb-5">
-          <p class="text-secondary">Conoce autores populares</p>
-          <h2 class="display-6 fw-semibold">Nuestros autores</h2>
-        </div>
-
-        <div class="row">
-          <div class="col mb-5">
-            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('plantilla/images/teacher1.jpg') }}" class="img-fluid rounded-3" alt="image">
-                
-                <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body p-0">
-                <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Anila Lee</p>
-                  <p class="text-secondary m-0">Art Director</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('plantilla/images/teacher2.jpg') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body p-0">
-                <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Bruce Smith</p>
-                  <p class="text-secondary m-0">Marketing Expert</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('plantilla/images/teacher3.jpg') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body p-0">
-
-                <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Jack Nicholson</p>
-                  <p class="text-secondary m-0">SEO Expert</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('plantilla/images/teacher4.jpg') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body p-0">
-
-                <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Calvin Ian</p>
-                  <p class="text-secondary m-0">Sales Director</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
-                <img src="{{ asset('plantilla/images/teacher5.jpg') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body p-0">
-
-                <div class="text-center mt-3">
-                  <p class="fw-bold m-0">Milye Sam</p>
-                  <p class="text-secondary m-0">Marketing Expert</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
+    <!-- FIN DE SECCION RESEÑAS -->
 
     <section id="points" class="padding-medium pt-0">
       <div class="container">
