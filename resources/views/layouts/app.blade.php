@@ -2,7 +2,7 @@
 <html lang="en">
     
     <head>
-        <title>Jubilee - Free Online Course HTML Website Template</title>
+        <title>Biblioteca Virtual :: UADGP</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -137,20 +137,20 @@
                     <div class="d-none d-lg-flex align-items-center">
                     <ul class="d-flex  align-items-center list-unstyled m-0">
                         <li>
-                        <a href="account.html" class="ms-3">
+                        <a href="#" class="ms-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
                             <use href="#user-circle" />
                             </svg> </a>
                         </li>
                         <li>
-                        <a href="wishlist.html" class="ms-3">
+                        <a href="#" class="ms-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
                             <use href="#heart" />
                             </svg> </a>
                         </a>
                         </li>
 
-                        <li class="">
+                        {{-- <li class="">
                         <a href="#" class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
                             aria-controls="offcanvasCart">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
@@ -166,7 +166,7 @@
                             <use href="#search" />
                             </svg> </a>
                         </a>
-                        </li>
+                        </li> --}}
 
                     </ul>
                     </div>

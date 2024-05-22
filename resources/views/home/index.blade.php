@@ -418,11 +418,11 @@
       <div class="container ">
         <div class="d-md-flex justify-content-between align-items-center">
           <div>
-            <p class="text-secondary ">Pick your niche and get started</p>
-            <h2 class="display-6 fw-semibold">Popular Categories</h2>
+            <p class="text-secondary ">Selecciona uno y comienza a leer</p>
+            <h2 class="display-6 fw-semibold">Categrorías Populares </h2>
           </div>
           <div class="mt-4 mt-md-0">
-            <a href="#" class="btn btn-primary px-5 py-3">View all categories</a>
+            <a href="#" class="btn btn-primary px-5 py-3">Ver todas las categorías</a>
           </div>
         </div>
         <div class="row g-md-3 mt-2">
@@ -433,8 +433,8 @@
                   <use href="#pencil-box" class="svg-primary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Graphic Design</p>
-                  <p class="category-paragraph m-0">39 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Diseño Gráfico</p>
+                  <p class="category-paragraph m-0">39 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -444,8 +444,8 @@
                   <use href="#speakerphone" class="svg-tertiary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">SEO & Marketing</p>
-                  <p class="category-paragraph m-0">24 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Desarrollo Urbano</p>
+                  <p class="category-paragraph m-0">24 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -455,8 +455,8 @@
                   <use href="#handshake" class="svg-secondary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Business & Finance</p>
-                  <p class="category-paragraph m-0">16 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Negocios y Finanzas</p>
+                  <p class="category-paragraph m-0">16 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -468,8 +468,8 @@
                   <use href="#camera" class="svg-gray" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Video & Photography</p>
-                  <p class="category-paragraph m-0">39 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Video y Fotografía</p>
+                  <p class="category-paragraph m-0">39 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -479,8 +479,8 @@
                   <use href="#laptop" class="svg-secondary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Computer Science</p>
-                  <p class="category-paragraph m-0">16 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Ciencias Computacionales</p>
+                  <p class="category-paragraph m-0">16 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -490,8 +490,8 @@
                   <use href="#fitness" class="svg-tertiary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Health & Fitness</p>
-                  <p class="category-paragraph m-0">24 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Salud y Fitness</p>
+                  <p class="category-paragraph m-0">24 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -504,8 +504,8 @@
                   <use href="#speakerphone" class="svg-tertiary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">SEO & Marketing</p>
-                  <p class="category-paragraph m-0">24 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Guías</p>
+                  <p class="category-paragraph m-0">24 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -515,8 +515,8 @@
                   <use href="#pencil-box" class="svg-primary" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Graphic Design</p>
-                  <p class="category-paragraph m-0">39 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Análisis</p>
+                  <p class="category-paragraph m-0">39 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -526,8 +526,8 @@
                   <use href="#pencil-box" class="svg-gray" />
                 </svg>
                 <div class="ps-4">
-                  <p class="category-paragraph fw-bold text-uppercase mb-1">Graphic Design</p>
-                  <p class="category-paragraph m-0">39 courses</p>
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">Prevención</p>
+                  <p class="category-paragraph m-0">39 coincidencias</p>
                 </div>
               </div>
             </div>
@@ -538,11 +538,13 @@
     </section>
     <!-- FIN DE SECCION CATEGORIAS -->
 
+    <br>
+    <br>
     <!-- SECCION CURSOS -->
-<section id="courses" class="padding-medium">
+    <section id="courses" class="padding-medium">
       <div class="container">
         <div class="text-center mb-5">
-          <p class="text-secondary">Algo de lo mas popular</p>
+          <p class="text-secondary" style="font-size:150% !important" >Algo de lo más popular</p>
           <h2 class="display-6 fw-semibold">Explora nuestro catalogo </h2>
         </div>
 
@@ -572,7 +574,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -608,7 +610,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -644,7 +646,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -680,7 +682,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -716,7 +718,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -752,7 +754,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -788,7 +790,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -824,7 +826,7 @@
 
                 <div class="card-text">
                   <span class="rating d-flex align-items-center mt-3">
-                    <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                    <p class="text-muted fw-semibold m-0 me-2">Por: James Willam</p>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
                     <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
@@ -838,19 +840,22 @@
           </div>
         </div>
 
-        <div class="text-center mt-4">
+       {{--  <div class="text-center mt-4">
           <a href="courses.html" class="btn btn-primary px-5 py-3">Todas las categorias</a>
-        </div>
+        </div> --}}
       </div>
     </section>
     <!-- FIN DE SECCION CURSOS -->
 
-         <!-- SECCION RESEÑAS -->
-         <section id="testimonial" class="padding-medium bg-primary-subtle">
+    <br>
+    <br>
+    <!-- SECCION RESEÑAS -->
+    <section id="testimonial" class="padding-medium bg-primary-subtle">
       <div class="container">
         <div class="text-center mb-4">
-          <p class="text-secondary ">Lo que los estudiantes dicen acerca</p>
           <h2 class="display-6 fw-semibold">Reseñas</h2>
+          <br>
+          <p class="text-secondary " style="font-size:150% !important">Lo que los estudiantes dicen acerca</p>
         </div>
         <div class="row">
           <div class="offset-md-1 col-md-10">
@@ -867,8 +872,8 @@
                       
                       </div>
                       <div class="col-9">
-                        <h5 class="m-0 mt-2">Recco Gracia</h5>
-                        <p class="text-muted">Web Developer</p>
+                        <h5 class="m-0 mt-2">Rebeca Garcia</h5>
+                        <p class="text-muted">Estudiante Maestría</p>
                       </div>
 
                     </div>
@@ -883,8 +888,8 @@
                       <div class="col-3"> <img src="{{ asset('plantilla/images/reviwer2.jpg') }}" alt="img" class="img-fluid rounded-circle">
                       </div>
                       <div class="col-9">
-                        <h5 class="m-0 mt-2">Bicky Yeal</h5>
-                        <p class="text-muted">Web Developer</p>
+                        <h5 class="m-0 mt-2">Alejandro Ávila</h5>
+                        <p class="text-muted">Estudiante Licenciatura</p>
                       </div>
 
                     </div>
@@ -899,8 +904,8 @@
                       <div class="col-3"> <img src="{{ asset('plantilla/images/reviwer3.jpg') }}" alt="img" class="img-fluid rounded-circle">
                       </div>
                       <div class="col-9">
-                        <h5 class="m-0 mt-2">Lilly Will</h5>
-                        <p class="text-muted">Web Developer</p>
+                        <h5 class="m-0 mt-2">Liliana Cruz</h5>
+                        <p class="text-muted">Pasante</p>
                       </div>
 
                     </div>
@@ -915,8 +920,8 @@
                       <div class="col-3"> <img src="{{ asset('plantilla/images/reviwer1.jpg') }}" alt="img" class="img-fluid rounded-circle">
                       </div>
                       <div class="col-9">
-                        <h5 class="m-0 mt-2">Recco Gracia</h5>
-                        <p class="text-muted">Web Developer</p>
+                        <h5 class="m-0 mt-2">Ana Cervantes</h5>
+                        <p class="text-muted">Estudiante Licenciatura</p>
                       </div>
 
                     </div>
@@ -931,8 +936,8 @@
                       <div class="col-3"> <img src="{{ asset('plantilla/images/reviwer2.jpg') }}" alt="img" class="img-fluid rounded-circle">
                       </div>
                       <div class="col-9">
-                        <h5 class="m-0 mt-2">Recco Gracia</h5>
-                        <p class="text-muted">Web Developer</p>
+                        <h5 class="m-0 mt-2">Juan López</h5>
+                        <p class="text-muted">Estudiante Maestría</p>
                       </div>
 
                     </div>
@@ -950,7 +955,7 @@
     </section>
     <!-- FIN DE SECCION RESEÑAS -->
 
-    <section id="points" class="padding-medium pt-0">
+   {{--  <section id="points" class="padding-medium pt-0">
       <div class="container">
         <div class="text-center">
           <p class="text-secondary ">What features we provide</p>
@@ -1015,9 +1020,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
-    <section id="register">
+    {{-- <section id="register">
       <div class="container padding-medium">
         <div class="row align-items-center">
           <div class="offset-md-1 col-md-5 ">
@@ -1038,8 +1043,35 @@
 
         </div>
       </div>
-    </section>
+    </section> --}}
 
+    <br>
+    <br>
+    <section id="register">
+      <div class="container padding-medium">
+        <div class="row align-items-center">
+          <div class="offset-md-1 col-md-5 ">
+            <div>
+              <h2 class="display-6 fw-semibold">Ingresa para acceder al contenido </h2>
+              <p class="text-secondary ">Accede sin costo a nuestra biblioteca</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <form id="form">
+              <input type="email" name="email" placeholder="Solicita tu cuenta con el administrador"
+                class="form-control bg-white border-0 rounded-5 shadow-none rounded-pill text-center px-4 py-3 w-100 mb-4">
+              <div class="d-grid">
+                <button class="btn btn-primary px-5 py-3"> Inicia Sesión</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
     
   </body> 
 </div>
