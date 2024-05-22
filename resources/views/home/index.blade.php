@@ -155,14 +155,13 @@
     </div>
 
     <section id="top-nav">
-      <div class="text-center px-md-3 py-md-2">
-      </div>
+      <hr>
     </section>
 
     
     <!-- SECCIÓN DE BARRA DE BÚSQUEDA -->
     <section id="barra-busqueda">
-        <div class="col-md-6 pe-5 mt-5 mt-md-0">
+        <div class="col-lg-6 col-sm-8 col-10 pe-lg-5 pe-sm-2 pe-1 mt-5 mt-md-0">
             <div>
               <form id="form" class="d-flex align-items-center position-relative">
                     <input type="text" name="email" placeholder="¿Qué te gustaría leer hoy?"
