@@ -61,11 +61,11 @@
         color: black; /* Color específico para el h2 */
     }
     
-    .imagen_portada {
-        max-width: 415px;
-        max-height: 588px;
-        width: auto;
-        height: auto;
+    #teacher .imagen-portada {
+        width: 200px; /* Ajusta este valor al tamaño deseado */
+        height: 300px; /* Ajusta este valor al tamaño deseado */
+        object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+        display: block; /* Evita espacios debajo de la imagen */
     }
     
     

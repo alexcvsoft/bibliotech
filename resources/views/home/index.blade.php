@@ -189,11 +189,11 @@
         <div class="row">
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="imagen_portada zoom-effect rounded-3">
+              <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="imagen_portada" alt="image">
                 <!-- <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="img-fluid rounded-3" alt="image"> -->
                 
-                <ul class="social-links list-unstyled position-absolute">
+                <!-- <ul class="social-links list-unstyled position-absolute">
                   <li>
                     <a href="#">
                       <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
@@ -222,7 +222,7 @@
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
               <div class="card-body p-0">
                 <div class="text-center mt-3">
@@ -234,10 +234,10 @@
           </div>
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
+              <div class="imagen-portada zoom-effect rounded-3">
                 <!-- <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid rounded-3" alt="image"> -->
                 <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid imagen_portada" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
+                <!-- <ul class="social-links list-unstyled position-absolute">
                   <li>
                     <a href="#">
                       <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
@@ -266,7 +266,7 @@
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
               <div class="card-body p-0">
                 <div class="text-center mt-3">
@@ -278,9 +278,9 @@
           </div>
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
+              <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Cerebro_y_adiccion_DRR.png') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
+                <!-- <ul class="social-links list-unstyled position-absolute">
                   <li>
                     <a href="#">
                       <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
@@ -309,7 +309,7 @@
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
               <div class="card-body p-0">
 
@@ -322,9 +322,9 @@
           </div>
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
+              <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Guía_metodológica.png') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
+                <!-- <ul class="social-links list-unstyled position-absolute">
                   <li>
                     <a href="#">
                       <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
@@ -353,7 +353,7 @@
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
               <div class="card-body p-0">
 
@@ -366,9 +366,9 @@
           </div>
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
-              <div class="image-holder zoom-effect rounded-3">
+              <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Guía_práctica_de_contabilidad_para_PYMES_FSMGC.png') }}" class="img-fluid rounded-3" alt="image">
-                <ul class="social-links list-unstyled position-absolute">
+                <!-- <ul class="social-links list-unstyled position-absolute">
                   <li>
                     <a href="#">
                       <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
@@ -397,7 +397,7 @@
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
               <div class="card-body p-0">
 
