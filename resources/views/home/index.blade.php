@@ -419,7 +419,7 @@
         <div class="d-md-flex justify-content-between align-items-center">
           <div>
             <p class="text-secondary ">Selecciona uno y comienza a leer</p>
-            <h2 class="display-6 fw-semibold">Categrorías Populares </h2>
+            <h2 class="display-6 fw-semibold">Categorías Populares </h2>
           </div>
           <div class="mt-4 mt-md-0">
             <a href="#" class="btn btn-primary px-5 py-3">Ver todas las categorías</a>
