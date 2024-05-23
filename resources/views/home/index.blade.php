@@ -181,8 +181,8 @@
     <section id="teacher" class="padding-medium">
       <div class="container">
         <div class="text-center mb-5">
-          <p class="texto-secundario">Conoce libros populares</p>
-          <h2 class="display-6 fw-semibold">Nuevas Adquisiciones</h2>
+          <p class="texto-secundario">Explora nuestra biblioteca</p>
+          <h2 class="display-6 fw-semibold">Añadidos recientemente</h2>
         </div>
 
         <div class="row">
@@ -190,38 +190,6 @@
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
               <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="imagen_portada" alt="image">
-                <!-- <img src="{{ asset('img/portadas/Adicciones...sin_drogas.png') }}" class="img-fluid rounded-3" alt="image"> -->
-                
-                <!-- <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul> -->
               </div>
               <div class="card-body p-0">
                 <div class="text-center mt-3">
@@ -234,38 +202,7 @@
           <div class="col mb-5">
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
               <div class="imagen-portada zoom-effect rounded-3">
-                <!-- <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid rounded-3" alt="image"> -->
                 <img src="{{ asset('/img/portadas/Cannabis_y_salud_mito_a_la_evidencia_MSM.png') }}" class="img-fluid imagen_portada" alt="image">
-                <!-- <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul> -->
               </div>
               <div class="card-body p-0">
                 <div class="text-center mt-3">
@@ -279,39 +216,8 @@
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
               <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Cerebro_y_adiccion_DRR.png') }}" class="img-fluid rounded-3" alt="image">
-                <!-- <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul> -->
               </div>
               <div class="card-body p-0">
-
                 <div class="text-center mt-3">
                   <p class="fw-bold m-0">Cerebro y adicción Neurobiología del refuerzo</p>
                   <p class="text-secondary m-0">Diego Redolar Ripoll</p>
@@ -323,39 +229,8 @@
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
               <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Guía_metodológica.png') }}" class="img-fluid rounded-3" alt="image">
-                <!-- <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul> -->
               </div>
               <div class="card-body p-0">
-
                 <div class="text-center mt-3">
                   <p class="fw-bold m-0">GUÍA METODOLÓGICA ELABORACIÓN Y ACTUALIZACIÓN DE PROGRAMAS MUNICIPALES DE DESARROLLO URBANO</p>
                   <p class="text-secondary m-0">Alejandro Marambio Castillo</p>
@@ -367,39 +242,8 @@
             <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
               <div class="imagen-portada zoom-effect rounded-3">
                 <img src="{{ asset('img/portadas/Guía_práctica_de_contabilidad_para_PYMES_FSMGC.png') }}" class="img-fluid rounded-3" alt="image">
-                <!-- <ul class="social-links list-unstyled position-absolute">
-                  <li>
-                    <a href="#">
-                      <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#facebook" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#twitter" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#instagram" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
-                        <use xlink:href="#linkedin" class="text-white"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul> -->
               </div>
               <div class="card-body p-0">
-
                 <div class="text-center mt-3">
                   <p class="fw-bold m-0">Guía práctica de contabilidad para PYMES</p>
                   <p class="text-secondary m-0">Fernando Sánchez</p>
