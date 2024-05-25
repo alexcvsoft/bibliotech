@@ -18,15 +18,16 @@ class UserController extends Controller
         $this->createNewUser = $createNewUser;
     }
     /**
-     * Display a listing of the resource.
+     * Mostrar la lista de usuarios.
      */
     public function index()
     {
-        //
+        $users = User::all();
+        return view('users.index', compact('users'));
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Mostrar el form para crear un nuevo usuario.
      */
     public function create()
     {
