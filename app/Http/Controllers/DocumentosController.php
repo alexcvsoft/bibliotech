@@ -17,7 +17,7 @@ class DocumentosController extends Controller
      */
     public function create()
     {
-        return view('users.create');
+        return view('documentos.create');
     }
 
     /**
@@ -47,7 +47,7 @@ class DocumentosController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return view('documentos.edit');   
     }
 
     /**

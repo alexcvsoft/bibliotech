@@ -1,36 +1,22 @@
-@extends('adminlte::page')
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            {{ __('Agregar Documento') }}
+        </h2>
+    </x-slot>
 
-@section('title','Agregar Unidad de Medida')
+    <div class="py-12">
+        <div class="max-w-xs mx-auto sm:px-6 lg:px-8"> <!-- Cambiado a max-w-xs para hacerlo más estrecho -->
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
+                <div class="p-6 sm:px-20 bg-white border-b border-gray-200 dark:bg-gray-800">
+                    <form method="POST" action="{{ route('documentos.store') }}"  role="form" enctype="multipart/form-data">
+                        @csrf
 
-@section('content')
-    <section class="content container-fluid">
-        <div class="row">
-            <div class="col-md-12">
+                        @include('documentos.form')
 
-                @includeif('partials.errors')
-
-                <div class="card card-default">
-                    <div class="card-header">
-                        <span class="card-title">{{ __('Create') }} Unidad de Medida</span>
-                    </div>
-                    @if ($message = Session::get('danger'))
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            {{ $message }}
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                    @endif
-                    <div class="card-body">
-                        <form method="POST" action="{{ route('unidad-medidas.store') }}"  role="form" enctype="multipart/form-data">
-                            @csrf
-
-                            @include('unidad-medida.form')
-
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
-@endsection
+    </div>
+</x-app-layout>

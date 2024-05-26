@@ -1,29 +1,22 @@
-@extends('adminlte::page')
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            {{ __('Actualizar Documento') }}
+        </h2>
+    </x-slot>
 
-@section('title','Actualizar Unidad de Medida')
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
+                <div class="p-6 sm:px-20 bg-white border-b border-gray-200 dark:bg-gray-800">
+                    <form method="POST" action="{{ route('documentos.update') }}"  role="form" enctype="multipart/form-data">
+                        @csrf
 
-@section('content')
-    <section class="content container-fluid">
-        <div class="">
-            <div class="col-md-12">
+                        @include('documentos.form')
 
-                @includeif('partials.errors')
-
-                <div class="card card-default">
-                    <div class="card-header">
-                        <span class="card-title">{{ __('Update') }} Unidad de Medida</span>
-                    </div>
-                    <div class="card-body">
-                        <form method="POST" action="{{ route('unidad-medidas.update', $unidadMedida->id) }}"  role="form" enctype="multipart/form-data">
-                            {{ method_field('PATCH') }}
-                            @csrf
-
-                            @include('unidad-medida.form')
-
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
-@endsection
+    </div>
+</x-app-layout>

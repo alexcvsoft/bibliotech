@@ -1,50 +1,52 @@
-<div class="box box-info padding-1">
-    <div class="box-body">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 form-group">
-                    {{ Form::label('descripcion','Descripción') }}
-                    <span style="color:red">*</span>
-                    {{ Form::text('descripcion', $unidadMedida->descripcion, ['class' => 'form-control' . ($errors->has('descripcion') ? ' is-invalid' : ''), 'placeholder' => 'Descripción', 'autocomplete'=>'off']) }}
-                    {!! $errors->first('descripcion', '<div class="invalid-feedback">:message</div>') !!}
-                </div>
-                <div class="col-sm-2 form-group">
-                    {{ Form::label('clave_sat','Clave SAT') }}
-                    <span style="color:red">*</span>
-                    {{ Form::text('clave_sat', $unidadMedida->clave_sat, ['class' => 'form-control' . ($errors->has('clave_sat') ? ' is-invalid' : ''), 'placeholder' => 'Clave SAT', 'autocomplete'=>'off']) }}
-                    {!! $errors->first('clave_sat', '<div class="invalid-feedback">:message</div>') !!}
-                </div>
-                <div class="col-sm-2 form-group">
-                    {{ Form::label('activo') }}
-                    <span style="color:red">*</span>
-                    {{ Form::select('activo', ['1' => 'Activo', '0' => 'Inactivo'], $unidadMedida->activo, ['class' => 'form-control activo' . ($errors->has('activo') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona Estado']) }}
-                    {{-- {!! Form::select('miSelect', ['opcion1' => 'Opción 1', 'opcion2' => 'Opción 2'], null, ['class' => 'form-control']) !!} --}}
-
-                    {{-- {{ Form::text('activo', $unidadMedida->activo, ['class' => 'form-control' . ($errors->has('activo') ? ' is-invalid' : ''), 'placeholder' => 'Activo']) }} --}}
-                    {!! $errors->first('activo', '<div class="invalid-feedback">:message</div>') !!}
-                </div>
-            </div>
+<div class="col-span-12">
+    <div class="flex">
+        <div class="w-1/2 p-2">
+            <x-label for="autor" value="{{ __('Autor') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="autor" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="autor" class="mt-2" />
         </div>
-
-
     </div>
-    <br>
-    <div class="row d-flex justify-content-center">
-        <a href="{{ route('unidad-medidas.index') }}" class="btn btn-danger col col-sm-2">{{ __('Cancelar') }}</a>
-        <div class="col col-sm-2"></div>
-        <button type="submit" id="btn-aceptar" onclick="myFunction();"
-            class="btn btn-primary col col-sm-2">Aceptar</button>
+    <div class="flex">
+        <div class="w-1/2 p-2">
+            <x-label for="titulo" value="{{ __('Título') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="titulo" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="titulo" class="mt-2" />
+        </div>
+        <div class="w-1/2 p-2">
+            <x-label for="editorial" value="{{ __('Editorial') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="editorial" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="editorial" class="mt-2" />
+        </div>
+    </div>
+    <div class="flex">
+        <div class="w-1/2 p-2">
+            <x-label for="tipo_documento_id" value="{{ __('Tipo de Documento') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="tipo_documento_id" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="tipo_documento_id" class="mt-2" />
+        </div>
+        <div class="w-1/2 p-2">
+            <x-label for="fecha_publicacion" value="{{ __('Fecha de Publicación') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="fecha_publicacion" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="fecha_publicacion" class="mt-2" />
+        </div>
+    </div>
+    <div class="flex">
+        <div class="w-full p-2">
+            <x-label for="descripcion" value="{{ __('Descripción') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <textarea id="descripcion" style="background-color: rgb(17 24 39);" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md resize-y dark:bg-gray-800 dark:border-gray-600 dark:text-gray-300" rows="4" required></textarea>
+            <x-input-error for="descripcion" class="mt-2" />
+        </div>
+    </div>
+    <div class="flex">
+        <div class="w-1/2 p-2">
+            <x-label for="archivo_documento" value="{{ __('Archivo') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="archivo_documento" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="archivo_documento" class="mt-2" />
+        </div>
+        <div class="w-1/2 p-2">
+            <x-label for="portada_documento" value="{{ __('Portada') }}" class="block text-sm font-medium text-gray-700 dark:text-gray-300" />
+            <x-input id="portada_documento" type="text" class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required/>
+            <x-input-error for="portada_documento" class="mt-2" />
+        </div>
     </div>
 </div>
-
-@section('js')
-    <script>
-         // elementos coloreados obligatorios
-         const elementos = ['clave_sat','activo','descripcion'];
-        elementos.forEach(function(id) {
-            const miElemento = new Identid(id);
-            miElemento.cambiaColor();
-        });
-    </script>
-@endsection
