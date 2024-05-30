@@ -2,43 +2,73 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * Class Documento
+ *
+ * @property $id
+ * @property $autor_id
+ * @property $titulo
+ * @property $editorial
+ * @property $descripcion
+ * @property $tipo_documento_id
+ * @property $fecha_publicacion
+ * @property $archivo_documento
+ * @property $portada_documento
+ * @property $created_at
+ * @property $updated_at
+ *
+ * @property Autore $autore
+ * @property TiposDocumento $tiposDocumento
+ * @property BitacoraConsulta[] $bitacoraConsultas
+ * @property PalabrasClaveDocumento[] $palabrasClaveDocumentos
+ * @package App
+ * @mixin \Illuminate\Database\Eloquent\Builder
+ */
 class Documento extends Model
 {
-    use HasFactory;
+    
+    protected $perPage = 20;
 
-    protected $table = 'documentos';
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = ['autor_id', 'titulo', 'editorial', 'descripcion', 'tipo_documento_id', 'fecha_publicacion', 'archivo_documento', 'portada_documento'];
 
-    protected $fillable = [
-        'autor_id',
-        'titulo',
-        'editorial',
-        'descripcion',
-        'tipo_documento_id',
-        'fecha_publicacion',
-        'archivo_documento',
-        'portada_documento',
-    ];
 
-    // Definir la relación con la tabla autor
-    public function autor()
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function autore()
     {
-        return $this->belongsTo(Autor::class);
+        return $this->belongsTo(\App\Models\Autore::class, 'autor_id', 'id');
     }
-
-    // Definir la relación de tipo de documento
-    public function tipoDocumento()
+    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function tiposDocumento()
     {
-        return $this->belongsTo(TipoDocumento::class);
+        return $this->belongsTo(\App\Models\TiposDocumento::class, 'tipo_documento_id', 'id');
     }
-
-    // Definir la relación con las palabras clave
-    public function palabrasClave()
+    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function bitacoraConsultas()
     {
-        return $this->belongsToMany(PalabraClave::class, 'palabras_clave_documentos', 'documento_id', 'palabra_clave_id');
+        return $this->hasMany(\App\Models\BitacoraConsulta::class, 'id', 'documento_id');
     }
-
+    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function palabrasClaveDocumentos()
+    {
+        return $this->hasMany(\App\Models\PalabrasClaveDocumento::class, 'id', 'documento_id');
+    }
     
 }

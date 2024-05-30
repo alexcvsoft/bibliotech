@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\DocumentosController;
+use App\Http\Controllers\DocumentoController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,5 +17,5 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
     Route::resource('users', UserController::class);
-    Route::resource('documentos', DocumentosController::class);
+    Route::resource('documentos', DocumentoController::class);
 });
