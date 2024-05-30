@@ -13,6 +13,7 @@ use App\Http\Controllers\HomeController;
 //     })->name('dashboard');
 // });
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+/* Route::get('/home', [HomeController::class, 'index'])->name('home'); */
+Route::get('/home', [HomeController::class, 'index2'])->name('home');
 Route::redirect('/', '/home');
 /* Route::resource('invitados', App\Http\Controllers\InvitadoController::class); */
